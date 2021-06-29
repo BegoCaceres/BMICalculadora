@@ -24,3 +24,11 @@
 .form-range{
     padding: 0px 20px;
 }
+
+.plusMinus{
+    cursor:pointer;
+    background-color: rgb(157, 233, 157);
+    padding: 7px;
+    border-radius: 15px;
+    margin-left: 3px;
+}
