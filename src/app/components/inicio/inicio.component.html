@@ -42,10 +42,10 @@
                 <div class="fondoItem">
                     <div class="contenedor">
                         <p>Peso</p>
-                        <div class="estiloNumero">60</div>
+                        <div class="estiloNumero">{{peso}}</div>
                         <div>
-                            <i class="fas fa-minus plusMinus"></i>
-                            <i class="fas fa-plus plusMinus"></i>
+                            <i class="fas fa-minus plusMinus" (click)="Menos('p')"></i>
+                            <i class="fas fa-plus plusMinus" (click)="Mas('p')"></i>
                         </div>
                     </div>
                 </div>
@@ -54,10 +54,10 @@
                 <div class="fondoItem">
                     <div class="contenedor">
                         <p>Edad</p>
-                        <div class="estiloNumero">25</div>
+                        <div class="estiloNumero">{{edad}}</div>
                         <div>
-                            <i class="fas fa-minus plusMinus"></i>
-                            <i class="fas fa-plus plusMinus"></i>
+                            <i class="fas fa-minus plusMinus" (click)="Menos('e')" ></i>
+                            <i class="fas fa-plus plusMinus" (click)="Mas('e')"></i>
                         </div>
                     </div>
                 </div>
