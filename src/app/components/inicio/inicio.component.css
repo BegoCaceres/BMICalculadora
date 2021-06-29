@@ -8,3 +8,19 @@
 .sexo{
     font-size: 40px;
 }
+
+.estiloNumero{
+    font-size:30px;
+    font-weight: 800;
+    margin-top: -30px;
+}
+
+.estiloCm{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: -10px;
+}
+
+.form-range{
+    padding: 0px 20px;
+}
