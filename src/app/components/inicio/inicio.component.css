@@ -32,3 +32,7 @@
     border-radius: 15px;
     margin-left: 3px;
 }
+
+.sexoDesactivo{
+    background-color: rgb(121, 209, 121);
+}
