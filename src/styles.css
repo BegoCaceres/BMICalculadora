@@ -26,3 +26,11 @@ body{
 .btn-color:hover{
     background-color: rgb(70, 160, 202); 
 }
+
+.contenedor{
+    display:flex; /*alinea el contenido en una linea*/
+    justify-content: center; /*centra el contenido desde arriba*/
+    align-items:center; /*alineacion al centro desde la izq*/
+    flex-direction: column;  /*direcciona el contenido uno debajo de otro*/
+    height: 100%; /*para que coja el 100% del contendor*/
+}
