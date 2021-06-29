@@ -13,3 +13,16 @@ body{
 .row{
     margin-top:20px;
 }
+
+
+.btn-color{
+  background-color: rgb(70, 160, 202);  
+  border-color: rgb(70, 160, 202); 
+  border-radius: 25px;
+  width: 100%;
+}
+
+/*para que al pasar el raton por el boton no cambie el color*/
+.btn-color:hover{
+    background-color: rgb(70, 160, 202); 
+}
