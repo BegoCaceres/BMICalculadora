@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+//para el ruteo de un componente a otro. En este caso
+//cuando le damos a calcular cambia al componente Resultado
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-inicio',
@@ -12,7 +15,7 @@ export class InicioComponent implements OnInit {
   altura = 170;
   sexo = "Masculino";
 
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngOnInit(): void {
   }
@@ -52,6 +55,11 @@ export class InicioComponent implements OnInit {
 
   masculino(){
     this.sexo = "Masculino";
+  }
+
+  calcularBMI(){
+  //vamos a realizar unos calculos
+   this.router.navigate(['/resultado']);
   }
 
 }
