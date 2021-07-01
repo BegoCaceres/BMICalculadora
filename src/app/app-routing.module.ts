@@ -8,7 +8,8 @@ import { ResultadoComponent } from './components/resultado/resultado.component';
 //si se pone cualquier otra ruta redireccionamos al componente inicio
 const routes: Routes = [
   { path: '', component: InicioComponent },
-  { path: 'resultado', component: ResultadoComponent },
+  //en este path el :valor sera el BMI que mandamos desde el boton CalcularBMI en el inicio.ts en la ruta
+  { path: 'resultado/:valor', component: ResultadoComponent },
   { path:'**', redirectTo: ''}
 ];
 
